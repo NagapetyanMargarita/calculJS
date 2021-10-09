@@ -36,7 +36,7 @@ btn.onclick = function()
 if(reg1.test(cena.value)===true && reg1.test(kol.value)===true) {oc();ok();}
 else if(reg1.test(cena.value)===true)
 {oc();nk();}
-else if(reg1.test(kol.value)===true) {on();ok();}
+else if(reg1.test(kol.value)===true) {ok();nс();}
 }
 else if((reg2.test(cena.value) ||reg2.test(kol.value))===true ) {
   alert(" Ошибка: Введите цифру в соответствующее поле!")
