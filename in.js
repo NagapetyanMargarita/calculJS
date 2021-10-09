@@ -25,7 +25,7 @@ btn.onclick = function()
   const reg2 = /^$/;
   var pro = parseInt(cena.value) *parseInt(kol.value);
     if((reg.test(cena.value) ||reg.test(kol.value))===true ) {
-      alert("Ошибка: Число отрицательное или равно нулю")
+      alert("Ошибка: Число отрицательное или начинается с 0")
     if(reg.test(cena.value)===true && reg.test(kol.value)===true) {oc();ok();}
    else if(reg.test(cena.value)===true)
    {oc();nk();}
