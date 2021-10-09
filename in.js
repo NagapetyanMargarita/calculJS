@@ -25,21 +25,21 @@ btn.onclick = function()
   const reg2 = /^$/;
   var pro = parseInt(cena.value) *parseInt(kol.value);
     if((reg.test(cena.value) ||reg.test(kol.value))===true ) {
-      alert("Ошибка: Число отрицательное или начинается с 0!")
+      alert("Ошибка: Число отрицательное или начинается с 0!");
     if(reg.test(cena.value)===true && reg.test(kol.value)===true) {oc();ok();}
    else if(reg.test(cena.value)===true)
    {oc();nk();}
     else if(reg.test(kol.value)===true) {nc();ok();}
 }
  else if((reg1.test(cena.value) ||reg1.test(kol.value))===true ) {
-  alert(" Ошибка: Вы ввели букву, а не число!")
+  alert(" Ошибка: Вы ввели букву, а не число!");
 if(reg1.test(cena.value)===true && reg1.test(kol.value)===true) {oc();ok();}
 else if(reg1.test(cena.value)===true)
 {oc();nk();}
 else if(reg1.test(kol.value)===true) {ok();nс();}
 }
 else if((reg2.test(cena.value) ||reg2.test(kol.value))===true ) {
-  alert(" Ошибка: Введите цифру в соответствующее поле!")
+  alert(" Ошибка: Введите цифру в соответствующее поле!");
 if(reg2.test(cena.value)===true && reg2.test(kol.value)===true) {oc();ok();}
 else if(reg2.test(cena.value)===true)
 {oc();nk();}
