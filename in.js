@@ -22,6 +22,7 @@ window.addEventListener('DOMContentLoaded', function (event) {
 btn.onclick = function()
  { const reg = /-+?|\b0[0-9]+/;
   const reg1 = /\D+/;
+  const reg2 = /^$/;
   var pro = parseInt(cena.value) *parseInt(kol.value);
     if((reg.test(cena.value) ||reg.test(kol.value))===true ) {
       alert("Ошибка: Число отрицательное или равно нулю")
@@ -36,6 +37,13 @@ if(reg1.test(cena.value)===true && reg1.test(kol.value)===true) {oc();ok();}
 else if(reg1.test(cena.value)===true)
 {oc();nk();}
 else if(reg1.test(kol.value)===true) {on();ok();}
+}
+else if((reg2.test(cena.value) ||reg2.test(kol.value))===true ) {
+  alert(" Ошибка: Введите цифру в соответствующее поле!")
+if(reg2.test(cena.value)===true && reg2.test(kol.value)===true) {oc();ok();}
+else if(reg2.test(cena.value)===true)
+{oc();nk();}
+else if(reg2.test(kol.value)===true) {on();ok();}
 }
     else {out.innerHTML = pro;ob();} }
  });
