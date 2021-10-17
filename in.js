@@ -48,7 +48,12 @@ else if(reg2.test(kol.value)===true) {on();ok();}
     else {out.innerHTML = pro;ob();} }
  });
 
-
+ function nar()
+ {  document.querySelector('.num').style.backgroundImage='url("https://www.1zoom.me/prev/190/189084.jpg")';}
+ function pion()
+ {  document.querySelector('.num').style.backgroundImage='url("https://grail58.ru/wp-content/uploads/k-chemu-snyatsya-piony.jpg")';}
+ function rose()
+ {  document.querySelector('.num').style.backgroundImage='url("https://im0-tub-ru.yandex.net/i?id=d2cf6a25e99b47bde5a5d896d44f5783-l&ref=rim&n=13&w=640&h=640")';}
 // Элементы формы
 const squareInput = document.querySelector('#square-input');
 const inputs = document.querySelectorAll('input');
@@ -67,6 +72,7 @@ const basePrice = 0;
 const totalPriceElement = document.querySelector('#total-price');
 
 let selectnow=1;
+nar();
 let radios = document.getElementById('radios');
 let checkbox = document.getElementById('checkbox');
 
@@ -116,16 +122,19 @@ if (select.value == "1") {
 radios.style.display = "none";
 checkbox.style.display = "none";
 selectnow = 1;
+nar();
 }
 else if(select.value == "2") {
 radios.style.display = "block";
 checkbox.style.display = "none";
 selectnow = 2;
+pion();
 }
 else {
 radios.style.display = "none";
 checkbox.style.display = "block";
 selectnow = 3;
+rose();
 }
 calculate();
 });
