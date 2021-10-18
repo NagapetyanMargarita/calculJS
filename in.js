@@ -49,11 +49,11 @@ else if(reg2.test(kol.value)===true) {on();ok();}
  });
 
  function nar()
- {  document.querySelector('.num').style.backgroundImage='url("https://www.1zoom.me/prev/190/189084.jpg")';}
+ {  document.querySelector('.num').style.backgroundImage='url("https://i.ytimg.com/vi/EfhyJFz2OwQ/hqdefault.jpg")';}
  function pion()
- {  document.querySelector('.num').style.backgroundImage='url("https://grail58.ru/wp-content/uploads/k-chemu-snyatsya-piony.jpg")';}
+ {  document.querySelector('.num').style.backgroundImage='url("https://s1.babiki.ru/uploads/images/topics/2020/06/22/15/cfb0c0de2f.jpg")';}
  function rose()
- {  document.querySelector('.num').style.backgroundImage='url("https://im0-tub-ru.yandex.net/i?id=d2cf6a25e99b47bde5a5d896d44f5783-l&ref=rim&n=13&w=640&h=640")';}
+ {  document.querySelector('.num').style.backgroundImage='url("https://i1.rozetka.ua/goods/14194195/125478678_images_14194195921.jpg")';}
 // Элементы формы
 const squareInput = document.querySelector('#square-input');
 const inputs = document.querySelectorAll('input');
