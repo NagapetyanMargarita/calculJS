@@ -12,6 +12,10 @@ body{
     background-image: url(images/fon.jpg);
     height: 100%;
 }
+img{
+    width: 250px;
+    height: 250px;
+}
 *,*:before,*:after{
     padding: 0;
     margin: 0;
@@ -20,6 +24,7 @@ body{
 }
 .wrapper{
     height: 100%;
+    width: 100%;
     padding: 50px;
 }
 .slick-list{
@@ -52,7 +57,7 @@ border: 1px solid black;
 }
 .slider{
     position: relative;
-    padding: 0px 60px;
+    padding: 0px 50px;
 }
 .slider .slick-arrow{
 position: absolute;
