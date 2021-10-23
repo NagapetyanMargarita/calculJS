@@ -57,7 +57,7 @@ border: 1px solid black;
 }
 .slider{
     position: relative;
-    padding: 10px 80px;
+    padding: 0px 60px;
 }
 .slider .slick-arrow{
 position: absolute;
